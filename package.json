@@ -1,0 +1,18 @@
+{
+  "name": "vscode-extensions-downloader",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gennon/VSCodeExtensionsDownloader"
+  },
+  "version": "0.0.1",
+  "description": "Downloads all installed vscode extensions as vsix files and puts them in a folder",
+  "main": "main.js",
+  "scripts": {
+    "start": "node --experimental-modules main.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gennon",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
