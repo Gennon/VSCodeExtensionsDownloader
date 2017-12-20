@@ -5,7 +5,8 @@
     "url": "https://github.com/Gennon/VSCodeExtensionsDownloader.git"
   },
   "version": "0.1.0",
-  "description": "Downloads all installed vscode extensions as vsix files and puts them in a folder",
+  "description":
+    "Downloads all installed vscode extensions as vsix files and puts them in a folder",
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
@@ -14,6 +15,7 @@
   "author": "Gennon",
   "license": "MIT",
   "dependencies": {
+    "archiver": "^2.1.0",
     "chalk": "^2.3.0",
     "commander": "^2.11.0"
   },
