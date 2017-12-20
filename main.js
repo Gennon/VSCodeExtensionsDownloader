@@ -4,11 +4,11 @@ const pkg = require("./package.json");
 
 program
   .version(pkg.version)
+  .option("-a, --archive", "Archive the final folder as a tar ball. [false]")
   .option(
     "-f, --flat",
-    "Save the VSIX in a flat structure, othwerwise makes use of Publisher/Extension/Version structure. [false]"
+    "Archive the VSIX in a flat structure, default makes use of Publisher/Extension/Version structure. [false]"
   )
-  .option("-a, --archive", "Archive the final folder as a tar ball. [false]")
   .option("-v, --verbose", "Prints detailed progress. [false]")
   .parse(process.argv);
 
